@@ -5,6 +5,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import org.fourthline.cling.UpnpService;
+import org.fourthline.cling.UpnpServiceImpl;
+import org.fourthline.cling.model.message.header.STAllHeader;
+import org.fourthline.cling.model.meta.LocalDevice;
+import org.fourthline.cling.model.meta.RemoteDevice;
+import org.fourthline.cling.registry.Registry;
+import org.fourthline.cling.registry.RegistryListener;
 
 public class DiscoveryKodi extends ActionBarActivity {
 
@@ -35,4 +42,6 @@ public class DiscoveryKodi extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
