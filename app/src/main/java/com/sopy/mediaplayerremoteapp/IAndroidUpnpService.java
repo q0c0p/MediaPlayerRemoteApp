@@ -8,25 +8,25 @@ import org.fourthline.cling.registry.Registry;
 /**
  * Created by sanae on 29/06/15.
  */
- interface IAndroidUpnpService {
+interface IAndroidUpnpService {
     /**
      * @return The actual main instance and interface of the UPnP service.
      */
-    public UpnpService get();
+    UpnpService get();
 
     /**
      * @return The configuration of the UPnP service.
      */
-    public UpnpServiceConfiguration getConfiguration();
+    UpnpServiceConfiguration getConfiguration();
 
     /**
      * @return The registry of the UPnP service.
      */
-    public Registry getRegistry();
+    Registry getRegistry();
 
     /**
      * @return The client API of the UPnP service.
      */
-    public ControlPoint getControlPoint();
+    ControlPoint getControlPoint();
 
 }
