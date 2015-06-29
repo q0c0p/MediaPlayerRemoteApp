@@ -30,4 +30,5 @@ dependencies {
     compile files('libs/seamless-http-1.1.0.jar')
     compile files('libs/seamless-xml-1.1.0.jar')
     compile files('libs/seamless-util-1.1.0.jar')
+    compile files('libs/jetty-server-9.0.0.rc0.jar')
 }

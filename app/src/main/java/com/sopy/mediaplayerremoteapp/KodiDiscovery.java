@@ -45,9 +45,11 @@ public class KodiDiscovery extends ListActivity {
             upnpService.getRegistry().addListener(registryListener);
 
             // Now add all devices to the list we already know about
+
             for (Device device : upnpService.getRegistry().getDevices()) {
                 registryListener.deviceAdded(device);
             }
+
 
             // Search asynchronously for all devices, they will respond soon
             upnpService.getControlPoint().search();
@@ -78,6 +80,8 @@ public class KodiDiscovery extends ListActivity {
                 serviceConnection,
                 Context.BIND_AUTO_CREATE
         );
+
+
     }
 
     @Override

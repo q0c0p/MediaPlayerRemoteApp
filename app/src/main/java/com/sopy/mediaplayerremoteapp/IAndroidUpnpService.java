@@ -8,7 +8,7 @@ import org.fourthline.cling.registry.Registry;
 /**
  * Created by sanae on 29/06/15.
  */
-interface IAndroidUpnpService {
+interface IAndroidUpnpService  {
     /**
      * @return The actual main instance and interface of the UPnP service.
      */

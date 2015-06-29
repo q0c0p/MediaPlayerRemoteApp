@@ -94,5 +94,6 @@
     <orderEntry type="library" exported="" name="seamless-xml-1.1.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.1.1" level="project" />
     <orderEntry type="library" exported="" name="seamless-http-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="jetty-server-9.0.0.rc0" level="project" />
   </component>
 </module>
