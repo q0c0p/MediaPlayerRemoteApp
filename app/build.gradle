@@ -17,16 +17,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    packagingOptions{
+        exclude 'META-INF/beans.xml'
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    // compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
-    compile files ('cling-core-2.0.1.jar')
-    compile files ('cling-core-2.0.1-sources.jar')
-    compile files ('cling-mediarenderer-2.0.1-standalone.jar')
-    compile files ('cling-workbench-2.0.1-standalone.jar')
-    compile files ('seamless-http-1.1.0.jar')
-    compile files ('seamless-util-1.1.0.jar')
-    compile files ('seamless-xml-1.1.0.jar')
+    compile files('libs/cling-core-2.0.1.jar')
+    compile files('libs/cling-support-2.0.1.jar')
+    compile files('libs/seamless-http-1.1.0.jar')
+    compile files('libs/seamless-xml-1.1.0.jar')
+    compile files('libs/seamless-util-1.1.0.jar')
 }
