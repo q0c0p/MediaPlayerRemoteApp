@@ -23,6 +23,7 @@ android {
 }
 
 dependencies {
+
     // compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
     compile files('libs/cling-core-2.0.1.jar')
@@ -31,4 +32,26 @@ dependencies {
     compile files('libs/seamless-xml-1.1.0.jar')
     compile files('libs/seamless-util-1.1.0.jar')
     compile files('libs/jetty-server-9.0.0.rc0.jar')
+    compile files('libs/servlet-api-3.0.jar')
+    compile files('libs/jetty-ajp-8.1.8.v20121106.jar')
+    compile files('libs/jetty-annotations-8.1.8.v20121106.jar')
+    compile files('libs/jetty-client-8.1.8.v20121106.jar')
+    compile files('libs/jetty-continuation-8.1.8.v20121106.jar')
+    compile files('libs/jetty-deploy-8.1.8.v20121106.jar')
+    compile files('libs/jetty-http-8.1.8.v20121106.jar')
+    compile files('libs/jetty-io-8.1.8.v20121106.jar')
+    compile files('libs/jetty-jmx-8.1.8.v20121106.jar')
+    compile files('libs/jetty-jndi-8.1.8.v20121106.jar')
+    compile files('libs/jetty-overlay-deployer-8.1.8.v20121106.jar')
+    compile files('libs/jetty-plus-8.1.8.v20121106.jar')
+    compile files('libs/jetty-policy-8.1.8.v20121106.jar')
+    compile files('libs/jetty-rewrite-8.1.8.v20121106.jar')
+    compile files('libs/jetty-security-8.1.8.v20121106.jar')
+    compile files('libs/jetty-server-8.1.8.v20121106.jar')
+    compile files('libs/jetty-servlet-8.1.8.v20121106.jar')
+    compile files('libs/jetty-servlets-8.1.8.v20121106.jar')
+    compile files('libs/jetty-util-8.1.8.v20121106.jar')
+    compile files('libs/jetty-webapp-8.1.8.v20121106.jar')
+    compile files('libs/jetty-websocket-8.1.8.v20121106.jar')
+    compile files('libs/jetty-xml-8.1.8.v20121106.jar')
 }

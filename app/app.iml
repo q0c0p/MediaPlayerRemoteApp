@@ -86,14 +86,36 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="appcompat-v7-22.1.1" level="project" />
-    <orderEntry type="library" exported="" name="cling-support-2.0.1" level="project" />
-    <orderEntry type="library" exported="" name="seamless-util-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="jetty-io-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-servlets-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-jmx-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="servlet-api-3.0" level="project" />
+    <orderEntry type="library" exported="" name="jetty-servlet-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-http-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-policy-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-ajp-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-xml-8.1.8.v20121106" level="project" />
     <orderEntry type="library" exported="" name="cling-core-2.0.1" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="jetty-overlay-deployer-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-plus-8.1.8.v20121106" level="project" />
     <orderEntry type="library" exported="" name="seamless-xml-1.1.0" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="jetty-server-8.1.8.v20121106" level="project" />
     <orderEntry type="library" exported="" name="seamless-http-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="cling-support-2.0.1" level="project" />
+    <orderEntry type="library" exported="" name="jetty-websocket-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-deploy-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-security-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-util-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="jetty-continuation-8.1.8.v20121106" level="project" />
     <orderEntry type="library" exported="" name="jetty-server-9.0.0.rc0" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="jetty-webapp-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-client-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="jetty-rewrite-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="seamless-util-1.1.0" level="project" />
+    <orderEntry type="library" exported="" name="jetty-annotations-8.1.8.v20121106" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="jetty-jndi-8.1.8.v20121106" level="project" />
   </component>
 </module>
