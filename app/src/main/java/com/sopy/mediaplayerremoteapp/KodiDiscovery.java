@@ -39,6 +39,7 @@ public class KodiDiscovery extends ListActivity {
             upnpService = (AndroidUpnpService) service;
 
             // Clear the list
+
             listAdapter.clear();
 
             // Get ready for future device advertisements
